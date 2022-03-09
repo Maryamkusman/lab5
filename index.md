@@ -1,9 +1,14 @@
 # Lab Report 5
-How you found the tests with different results (Did you use diff on the results of running a bash for loop? Did you search through manually? Did you use some other programmatic idea?)
-I used bash script.sh to copy the output onto a txt then I used diff to see the differences. I noticed a difference between my file and Joes on test file 106 and 115. 
-![q1](sc1.pgn)
+### How you found the tests with different results (Did you use diff on the results of running a bash for loop? Did you search through manually? Did you use some other programmatic idea?)
 
-Describe which implementation is correct, or if you think neither is correct, by showing both actual outputs and indicating what the expected output is.
+
+I used bash script.sh to copy the output onto a txt then I used diff to see the differences. I noticed a difference between my file and Joes on test file 106 and 115. 
+![q1](sc1.png)
+
+### Describe which implementation is correct, or if you think neither is correct, by showing both actual outputs and indicating what the expected output is.
+
+
+
 For test 115 my implementation is correct and joes is incorrect. This is because it outputs [baz] whereas in the code there is no baz written so it reads another file. Mine outputs [] which is what was intended. 
 ![q2](sc2.png)
 His results for test 115 
@@ -19,7 +24,10 @@ Joes:
 
 Which outputted a url when there was no intended url to be outputted. 
 
-For the implementation that’s not correct (or choose one if both are incorrect), describe the _bug (the problem in the code). You don’t have to provide a fix, but you should be specific about what is wrong with the program, and show the code that should be fixed.
+### For the implementation that’s not correct (or choose one if both are incorrect), describe the _bug (the problem in the code). You don’t have to provide a fix, but you should be specific about what is wrong with the program, and show the code that should be fixed.
+
+
+
 I think the error is here. This is because of the open and close bracket errors which may have caused the links to show up. It may have malfunctioned in deciding on whether it should be in link form which caused for example test 106 to show a link when there was no link in the test file.  
 ![q3](sc6.png)
 ![q3](sc7.png)
