@@ -1,3 +1,4 @@
+# Lab Report 5
 How you found the tests with different results (Did you use diff on the results of running a bash for loop? Did you search through manually? Did you use some other programmatic idea?)
 I used bash script.sh to copy the output onto a txt then I used diff to see the differences. I noticed a difference between my file and Joes on test file 106 and 115. 
 ![q1](sc1.pgn)
