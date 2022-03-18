@@ -7,7 +7,7 @@ I used bash script.sh to copy the output onto a txt then I used diff to see the 
 
 ### Describe which implementation is correct, or if you think neither is correct, by showing both actual outputs and indicating what the expected output is.
 
-###test 106.md
+### test 106.md
 this is the expected output. 
 ![q1](OG.png)
 THe output of Joes and mine are different. 
@@ -18,7 +18,7 @@ My output:
 
 For test 115 my implementation is correct and joes is incorrect. This is because it outputs [baz] whereas in the code there is no valid outputted link it should output [] instead. Mine outputs [] which is what was intended. 
  
-###test 115.md
+### test 115.md
 
 this is the expected output:
 ![q1](106.png)
@@ -31,7 +31,7 @@ Our results:
 
 For test 115.md
 Mine is correct and joes is incorrect this is becz theree is no valid link and joes outputs [url]. the output should be []. 
-Describes bug in code for one of the incorrect implementation and shows the code that should be fixed.
+#### Describes bug in code for one of the incorrect implementation and shows the code that should be fixed.
 
 ![q3](sc6.png)
 i think the bug here is in joes . It seems like joes takes everything between the parenthesis as a link when thats not how is should output. I think also the use of the open parenthesis within the [ ] may be a cause for error. this is for test 115.md
